@@ -15,7 +15,9 @@
     .wrap { width:min(1080px, calc(100% - 44px)); margin:auto; }
     header { border-bottom:1px solid var(--line); background:rgba(251,252,250,.96); }
     .nav { min-height:72px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
-    .brand { font-weight:700; letter-spacing:.02em; }
+    .brand { display:flex; align-items:center; }
+    .brand img { display:block; width:min(360px, 42vw); height:auto; }
+    @media (max-width:760px) { .brand img { width:min(270px, 70vw); } }
     nav { display:flex; flex-wrap:wrap; gap:20px; font-size:.92rem; }
     .lang { border:1px solid var(--line); background:white; color:var(--ink); padding:7px 11px; border-radius:20px; cursor:pointer; }
     .hero { padding:92px 0 76px; display:grid; grid-template-columns:1.45fr .75fr; gap:54px; align-items:center; }
@@ -53,10 +55,10 @@
     }
   </style>
 </head>
-<body>
+<body id="top">
 <header>
   <div class="wrap nav">
-    <div class="brand">YMG</div>
+    <a class="brand" href="#top" aria-label="Yosune Miquelajauregui"><img src="assets/logo-yosune.svg" alt="Yosune Miquelajauregui — Transforming Systems, Inspiring Futures"></a>
     <nav aria-label="Main navigation">
       <a href="#expertise" data-en="Expertise" data-es="Especialidades">Expertise</a>
       <a href="#approach" data-en="Approach" data-es="Enfoque">Approach</a>
