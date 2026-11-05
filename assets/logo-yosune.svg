@@ -1,25 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 230" role="img" aria-labelledby="title desc">
-<title id="title">Yosune Miquelajauregui — Transforming Systems, Inspiring Futures</title>
-<desc id="desc">Landscape emblem with sun, mountains, water and green hill beside the name Yosune Miquelajauregui.</desc>
-<rect width="1000" height="230" fill="#fbfcfa"/>
-<g transform="translate(18 15)">
- <circle cx="98" cy="100" r="88" fill="#101820"/>
- <clipPath id="c"><circle cx="98" cy="100" r="80"/></clipPath>
- <g clip-path="url(#c)">
-  <rect x="18" y="20" width="160" height="160" fill="#79d5e7"/>
-  <circle cx="89" cy="72" r="42" fill="#ffd51b"/>
-  <path d="M18 88H178V118H18Z" fill="#078bd4"/>
-  <path d="M18 122H178V154H18Z" fill="#0753a7"/>
-  <path d="M18 164 Q72 132 112 160 Q147 177 178 158V190H18Z" fill="#21b52e"/>
-  <path d="M48 158 L75 83 L99 67 L123 78 L160 120 L166 158 L139 164 L119 145 L111 112 L94 96 L82 163Z" fill="#f8f8f4" stroke="#111820" stroke-width="8" stroke-linejoin="round"/>
-  <path d="M95 96 L116 113 L122 143 L139 164" fill="none" stroke="#111820" stroke-width="7" stroke-linejoin="round"/>
-  <path d="M18 88H58 M18 122H55" stroke="#111820" stroke-width="7"/>
- </g>
- <circle cx="98" cy="100" r="84" fill="none" stroke="#101820" stroke-width="7"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+<title id="title">Yosune Miquelajauregui — Transforming Systems · Inspiring Futures</title>
+<desc id="desc">Circular landscape emblem with a yellow sun, blue sky and water, white mountain, and green foreground, beside Yosune Miquelajauregui's name and tagline.</desc>
+<defs>
+  <clipPath id="emblemClip"><circle cx="158" cy="158" r="137"/></clipPath>
+</defs>
+<g transform="translate(0 2)">
+  <circle cx="158" cy="158" r="150" fill="#080b0d"/>
+  <g clip-path="url(#emblemClip)">
+    <rect x="15" y="15" width="286" height="286" fill="#a9d7e9"/>
+    <path d="M15 111H300V190H15Z" fill="#0755b4"/>
+    <path d="M15 115H300V151H15Z" fill="#0879d5"/>
+    <path d="M15 157H300V192H15Z" fill="#06438f"/>
+    <circle cx="165" cy="98" r="78" fill="#ffdc18"/>
+    <path d="M15 214 Q82 188 132 215 Q203 248 301 207V305H15Z" fill="#21b52c"/>
+    <path d="M97 260 L133 120 Q143 88 177 76 Q198 69 220 83 L282 143 L301 220 L263 235 L238 210 L227 166 L194 135 L175 119 L159 151 L148 215 L135 267Z" fill="#f7f7f2" stroke="#080b0d" stroke-width="13" stroke-linejoin="round"/>
+    <path d="M177 119 L207 145 L219 183 L240 211" fill="none" stroke="#080b0d" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M15 111H91 M15 157H75" fill="none" stroke="#080b0d" stroke-width="10"/>
+    <path d="M15 214 Q82 188 132 215 Q203 248 301 207" fill="none" stroke="#080b0d" stroke-width="10"/>
+  </g>
+  <circle cx="158" cy="158" r="143" fill="none" stroke="#080b0d" stroke-width="9"/>
 </g>
-<path d="M225 25V202" stroke="#1b5138" stroke-width="2"/>
-<text x="258" y="103" fill="#12432e" font-family="Georgia, 'Times New Roman', serif" font-size="67">Yosune</text>
-<text x="258" y="163" fill="#12432e" font-family="Georgia, 'Times New Roman', serif" font-size="55">Miquelajauregui</text>
-<path d="M260 178 Q570 205 950 177" fill="none" stroke="#3e9a52" stroke-width="4"/>
-<text x="260" y="218" fill="#174a34" font-family="Arial, sans-serif" font-size="19" letter-spacing="5">TRANSFORMING SYSTEMS  ·  INSPIRING FUTURES</text>
+<path d="M355 42V278" stroke="#153f30" stroke-width="2.5"/>
+<text x="405" y="139" fill="#123f2e" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="600" letter-spacing="-2">Yosune</text>
+<text x="405" y="215" fill="#123f2e" font-family="Arial, Helvetica, sans-serif" font-size="65" font-weight="500" letter-spacing="-2">Miquelajauregui</text>
+<text x="409" y="267" fill="#315d49" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="500" letter-spacing="4">TRANSFORMING SYSTEMS  ·  INSPIRING FUTURES</text>
 </svg>
