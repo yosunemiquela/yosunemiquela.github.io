@@ -22,7 +22,9 @@
     .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:.14em; font-size:.76rem; font-weight:700; }
     h1 { font-size:clamp(2.5rem,5vw,4.7rem); line-height:1.06; letter-spacing:-.045em; margin:16px 0 22px; font-weight:650; }
     .lead { color:#405563; font-size:1.22rem; max-width:720px; }
-    .hero-card { background:var(--pale); border-radius:4px; padding:30px; border-left:3px solid var(--accent); }
+    .hero-side { display:flex; flex-direction:column; gap:20px; }
+    .portrait { width:100%; aspect-ratio:4/5; object-fit:cover; object-position:center 28%; display:block; border-radius:4px; box-shadow:0 14px 34px rgba(24,43,58,.12); }
+    .hero-card { background:var(--pale); border-radius:4px; padding:25px 27px; border-left:3px solid var(--accent); }
     .hero-card p { margin:0 0 12px; }
     .hero-card p:last-child { margin:0; }
     .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:30px; }
@@ -77,10 +79,13 @@
         <a class="button" href="#contact" data-en="Get in touch" data-es="Contacto">Get in touch</a>
       </div>
     </div>
-    <aside class="hero-card">
-      <p><strong data-en="Research, collaboration and practice" data-es="Investigación, colaboración y práctica">Research, collaboration and practice</strong></p>
-      <p data-en="Inter- and transdisciplinary approaches to complex sustainability challenges, connecting models, evidence, institutions and collective learning." data-es="Enfoques inter y transdisciplinarios para abordar retos complejos de sostenibilidad, conectando modelos, evidencia, instituciones y aprendizaje colectivo.">Inter- and transdisciplinary approaches to complex sustainability challenges, connecting models, evidence, institutions and collective learning.</p>
-    </aside>
+    <div class="hero-side">
+      <img class="portrait" src="assets/yosune-profile.jpg" alt="Yosune Miquelajauregui Graf" loading="eager">
+      <aside class="hero-card">
+        <p><strong data-en="Research, collaboration and practice" data-es="Investigación, colaboración y práctica">Research, collaboration and practice</strong></p>
+        <p data-en="Inter- and transdisciplinary approaches to complex sustainability challenges, connecting models, evidence, institutions and collective learning." data-es="Enfoques inter y transdisciplinarios para abordar retos complejos de sostenibilidad, conectando modelos, evidencia, instituciones y aprendizaje colectivo.">Inter- and transdisciplinary approaches to complex sustainability challenges, connecting models, evidence, institutions and collective learning.</p>
+      </aside>
+    </div>
   </div>
 
   <section id="expertise">
