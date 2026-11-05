@@ -1,198 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Yosune Miquelajauregui Graf — sustainability science, socio-ecological systems, and decision-making under deep uncertainty.">
-  <title>Yosune Miquelajauregui Graf | Sustainability Science</title>
-  <style>
-    :root { --ink:#182b3a; --muted:#60717d; --accent:#26756d; --pale:#edf4f1; --line:#dce5e1; --paper:#fbfcfa; }
-    * { box-sizing:border-box; }
-    html { scroll-behavior:smooth; }
-    body { margin:0; color:var(--ink); background:var(--paper); font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
-    a { color:var(--accent); text-decoration:none; }
-    a:hover { text-decoration:underline; }
-    .wrap { width:min(1080px, calc(100% - 44px)); margin:auto; }
-    header { border-bottom:1px solid var(--line); background:rgba(251,252,250,.96); }
-    .nav { min-height:72px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
-    .brand { display:flex; align-items:center; }
-    .brand img { display:block; width:min(360px, 42vw); height:auto; }
-    @media (max-width:760px) { .brand img { width:min(270px, 70vw); } }
-    nav { display:flex; flex-wrap:wrap; gap:20px; font-size:.92rem; }
-    .lang { border:1px solid var(--line); background:white; color:var(--ink); padding:7px 11px; border-radius:20px; cursor:pointer; }
-    .hero { padding:92px 0 76px; display:grid; grid-template-columns:1.45fr .75fr; gap:54px; align-items:center; }
-    .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:.14em; font-size:.76rem; font-weight:700; }
-    h1 { font-size:clamp(2.5rem,5vw,4.7rem); line-height:1.06; letter-spacing:-.045em; margin:16px 0 22px; font-weight:650; }
-    .lead { color:#405563; font-size:1.22rem; max-width:720px; }
-    .hero-side { display:flex; flex-direction:column; gap:20px; }
-    .portrait { width:100%; max-width:280px; height:auto; aspect-ratio:auto; margin:0 auto; object-fit:contain; object-position:center; display:block; border-radius:4px; box-shadow:0 14px 34px rgba(24,43,58,.12); }
-    .hero-card { background:var(--pale); border-radius:4px; padding:25px 27px; border-left:3px solid var(--accent); }
-    .hero-card p { margin:0 0 12px; }
-    .hero-card p:last-child { margin:0; }
-    .actions { display:flex; flex-wrap:wrap; gap:12px; margin-top:30px; }
-    .button { display:inline-block; padding:11px 17px; border:1px solid var(--accent); border-radius:3px; font-weight:600; }
-    .button.primary { color:white; background:var(--accent); }
-    section { padding:65px 0; border-top:1px solid var(--line); }
-    h2 { font-size:1.85rem; letter-spacing:-.025em; margin:0 0 25px; }
-    h3 { font-size:1.08rem; margin:0 0 9px; }
-    .intro { color:var(--muted); max-width:760px; margin-top:-12px; margin-bottom:30px; }
-    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
-    .item { padding:23px; border:1px solid var(--line); background:white; min-height:175px; }
-    .item p { margin:0; color:var(--muted); font-size:.96rem; }
-    .two { display:grid; grid-template-columns:1fr 1fr; gap:42px; }
-    ul.clean { padding-left:19px; margin-top:8px; }
-    ul.clean li { margin:8px 0; }
-    .tagline { font-size:1.1rem; color:#405563; }
-    .contact { background:var(--pale); padding:34px; }
-    footer { padding:27px 0 42px; color:var(--muted); font-size:.88rem; }
-    .hidden { display:none; }
-    @media (max-width:760px) {
-      .hero,.two { grid-template-columns:1fr; gap:28px; }
-      .hero { padding:60px 0; }
-      .portrait { max-width:230px; }
-      .grid { grid-template-columns:1fr; }
-      .nav { padding:15px 0; align-items:flex-start; }
-      nav { gap:10px 14px; }
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Yosune Miquelajauregui | Sustainability science, socio-ecological systems and decision-making under deep uncertainty.">
+<title>Yosune Miquelajauregui | Transforming Systems · Inspiring Futures</title>
+<style>
+:root{--forest:#244638;--forest2:#385b49;--sage:#dce6dc;--sage2:#eef2eb;--paper:#faf9f5;--ink:#202b26;--muted:#68736b;--line:#d9ded5;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.7 'Aptos','Segoe UI',sans-serif}
+a{color:inherit;text-decoration:none}a:hover{color:var(--forest2)}
+.wrap{width:min(1160px,calc(100% - 56px));margin:auto}
+header{padding:20px 0 17px;border-bottom:1px solid var(--line);background:var(--paper)}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:28px}
+.brand img{display:block;width:min(420px,42vw);height:auto;max-height:112px;object-fit:contain;object-position:left center}
+nav{display:flex;align-items:center;gap:23px;font-size:.84rem;letter-spacing:.035em;color:var(--forest)}
+.lang{border:1px solid var(--forest);border-radius:2px;background:transparent;color:var(--forest);padding:7px 11px;font:inherit;cursor:pointer}
+.hero{display:grid;grid-template-columns:1.12fr .88fr;gap:8%;align-items:center;padding:86px 0 90px}
+.kicker,.section-no{font-size:.72rem;letter-spacing:.19em;text-transform:uppercase;color:var(--forest2);font-weight:700}
+h1,h2,h3{font-family:Georgia,'Times New Roman',serif;font-weight:400;color:var(--forest);line-height:1.15}
+h1{font-size:clamp(3rem,6vw,5.6rem);letter-spacing:-.045em;margin:20px 0 25px}
+.hero .lead{font:1.22rem/1.7 Georgia,serif;color:#4f5e54;max-width:650px}
+.hero-photo{display:flex;justify-content:center;align-items:center;min-height:420px;background:var(--sage2);padding:26px}
+.portrait{display:block;width:auto;max-width:100%;height:auto;max-height:510px;object-fit:contain;box-shadow:0 18px 45px rgba(30,55,40,.12)}
+.hero-note{margin-top:25px;padding-left:18px;border-left:2px solid #9aaa8d;color:var(--muted);font-size:.94rem;max-width:540px}
+.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}
+.btn{display:inline-block;padding:12px 20px;border:1px solid var(--forest);font-size:.86rem;letter-spacing:.035em}
+.btn.primary{background:var(--forest);color:white}.btn:hover{background:var(--forest2);color:white}
+.band{background:var(--sage2);padding:26px 0}
+.band-inner{display:flex;justify-content:space-between;gap:35px;align-items:center}
+.band p{margin:0;color:var(--forest);font:italic 1.2rem Georgia,serif}
+section{padding:78px 0;border-top:1px solid var(--line)}
+.section-head{display:grid;grid-template-columns:.65fr 1.35fr;gap:40px;margin-bottom:36px}
+h2{font-size:clamp(2.1rem,4vw,3.1rem);margin:8px 0}
+.intro{max-width:730px;color:var(--muted);font-size:1.05rem;margin:9px 0 0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.card{background:var(--paper);padding:30px 27px;min-height:220px}
+.card .num{font-size:.75rem;letter-spacing:.15em;color:#82927f}
+h3{font-size:1.45rem;margin:17px 0 12px}
+.card p,.body-copy{color:var(--muted);margin:0}
+.approach{display:grid;grid-template-columns:1fr 1fr;gap:9%;align-items:start}
+.approach-list{list-style:none;padding:0;margin:0;border-top:1px solid var(--line)}
+.approach-list li{padding:15px 0;border-bottom:1px solid var(--line);color:#4d5b51}
+.projects{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.project{padding:27px 29px;background:var(--sage2);min-height:180px}
+.project h3{margin-top:0}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:9%}
+.credentials{padding-left:20px;color:var(--muted)}
+.credentials li{padding:5px 0}
+.contact-panel{background:var(--forest);color:#f7f6ef;padding:45px 48px;display:flex;align-items:center;justify-content:space-between;gap:30px}
+.contact-panel h2{color:white;margin:0 0 12px}.contact-panel p{margin:0;color:#e0e8df;max-width:650px}
+.contact-panel .btn{border-color:white;color:white;white-space:nowrap}
+footer{padding:26px 0 38px;color:var(--muted);font-size:.82rem}
+@media(max-width:800px){.wrap{width:min(100% - 36px,640px)}.topbar{align-items:flex-start;flex-direction:column}.brand img{width:min(390px,85vw);max-height:100px}nav{gap:12px 17px;flex-wrap:wrap}.hero{grid-template-columns:1fr;gap:35px;padding:55px 0}.hero-photo{min-height:0;padding:18px}.portrait{max-height:470px}.band-inner,.contact-panel{align-items:flex-start;flex-direction:column}.section-head,.approach,.about-grid{grid-template-columns:1fr;gap:15px}.cards,.projects{grid-template-columns:1fr}.card{min-height:0}section{padding:58px 0}.contact-panel{padding:32px 25px}}
+</style>
 </head>
 <body id="top">
-<header>
-  <div class="wrap nav">
-    <a class="brand" href="#top" aria-label="Yosune Miquelajauregui"><img src="assets/logo-yosune.png" alt="Yosune Miquelajauregui — Transforming Systems, Inspiring Futures"></a>
-    <nav aria-label="Main navigation">
-      <a href="#expertise" data-en="Expertise" data-es="Especialidades">Expertise</a>
-      <a href="#approach" data-en="Approach" data-es="Enfoque">Approach</a>
-      <a href="#work" data-en="Selected work" data-es="Trabajo">Selected work</a>
-      <a href="#about" data-en="About" data-es="Perfil">About</a>
-      <a href="#contact" data-en="Contact" data-es="Contacto">Contact</a>
-      <button class="lang" id="lang" type="button">ES</button>
-    </nav>
-  </div>
-</header>
-
+<header><div class="wrap topbar">
+<a class="brand" href="#top" aria-label="Yosune Miquelajauregui"><img src="assets/logo-yosune.png" alt="Yosune Miquelajauregui — Transforming Systems · Inspiring Futures"></a>
+<nav aria-label="Navegación">
+<a href="#expertise" data-en="Expertise" data-es="Especialidades">Especialidades</a>
+<a href="#approach" data-en="Approach" data-es="Enfoque">Enfoque</a>
+<a href="#work" data-en="Selected work" data-es="Proyectos">Proyectos</a>
+<a href="#about" data-en="Profile" data-es="Perfil">Perfil</a>
+<a href="#contact" data-en="Contact" data-es="Contacto">Contacto</a>
+<button class="lang" id="lang" type="button">EN</button>
+</nav></div></header>
 <main>
-  <div class="wrap hero">
-    <div>
-      <div class="eyebrow" data-en="Sustainability science · Systems thinking · Decision support" data-es="Ciencia de la sostenibilidad · Pensamiento sistémico · Apoyo a decisiones">Sustainability science · Systems thinking · Decision support</div>
-      <h1>Yosune<br>Miquelajauregui Graf</h1>
-      <p class="lead" data-en="I work at the intersection of socio-ecological systems, sustainability transformations, and decision-making under deep uncertainty." data-es="Trabajo en la intersección entre sistemas socioecológicos, transformaciones hacia la sostenibilidad y toma de decisiones bajo incertidumbre profunda.">I work at the intersection of socio-ecological systems, sustainability transformations, and decision-making under deep uncertainty.</p>
-      <div class="actions">
-        <a class="button primary" href="#expertise" data-en="Explore my expertise" data-es="Conoce mi trabajo">Explore my expertise</a>
-        <a class="button" href="#contact" data-en="Get in touch" data-es="Contacto">Get in touch</a>
-      </div>
-    </div>
-    <div class="hero-side">
-      <img class="portrait" src="assets/yosune-profile.JPG" alt="Yosune Miquelajauregui Graf" loading="eager">
-      <aside class="hero-card">
-        <p><strong data-en="Research, collaboration and practice" data-es="Investigación, colaboración y práctica">Research, collaboration and practice</strong></p>
-        <p data-en="Inter- and transdisciplinary approaches to complex sustainability challenges, connecting models, evidence, institutions and collective learning." data-es="Enfoques inter y transdisciplinarios para abordar retos complejos de sostenibilidad, conectando modelos, evidencia, instituciones y aprendizaje colectivo.">Inter- and transdisciplinary approaches to complex sustainability challenges, connecting models, evidence, institutions and collective learning.</p>
-      </aside>
-    </div>
-  </div>
-
-  <section id="expertise">
-    <div class="wrap">
-      <h2 data-en="Areas of expertise" data-es="Áreas de especialización">Areas of expertise</h2>
-      <p class="intro" data-en="I combine analytical and collaborative approaches to understand complex systems and support decisions in uncertain and changing contexts." data-es="Combino enfoques analíticos y colaborativos para comprender sistemas complejos y apoyar decisiones en contextos de incertidumbre y cambio.">I combine analytical and collaborative approaches to understand complex systems and support decisions in uncertain and changing contexts.</p>
-      <div class="grid">
-        <article class="item">
-          <h3 data-en="Decision-making under deep uncertainty" data-es="Toma de decisiones bajo incertidumbre profunda">Decision-making under deep uncertainty</h3>
-          <p data-en="Exploratory modeling, scenario discovery, robustness analysis and spatial decision support." data-es="Modelación exploratoria, identificación de escenarios, análisis de robustez y apoyo espacial a la toma de decisiones.">Exploratory modeling, scenario discovery, robustness analysis and spatial decision support.</p>
-        </article>
-        <article class="item">
-          <h3 data-en="Socio-ecological systems and sustainability" data-es="Sistemas socioecológicos y sostenibilidad">Socio-ecological systems and sustainability</h3>
-          <p data-en="System dynamics, thresholds, resilience, transformations and ecosystem-service interactions." data-es="Dinámica de sistemas, umbrales, resiliencia, transformaciones e interacciones entre servicios ecosistémicos.">System dynamics, thresholds, resilience, transformations and ecosystem-service interactions.</p>
-        </article>
-        <article class="item">
-          <h3 data-en="Governance and adaptive capacity" data-es="Gobernanza y capacidad adaptativa">Governance and adaptive capacity</h3>
-          <p data-en="Collaborative governance, institutional capacity, indicators, monitoring, evaluation and learning." data-es="Gobernanza colaborativa, capacidades institucionales, indicadores, monitoreo, evaluación y aprendizaje.">Collaborative governance, institutional capacity, indicators, monitoring, evaluation and learning.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="approach">
-    <div class="wrap two">
-      <div>
-        <h2 data-en="How I work" data-es="Mi enfoque">How I work</h2>
-        <p class="tagline" data-en="Connecting knowledge, methods and people to make better decisions about complex sustainability challenges." data-es="Conectar conocimiento, métodos y personas para mejorar las decisiones frente a retos complejos de sostenibilidad.">Connecting knowledge, methods and people to make better decisions about complex sustainability challenges.</p>
-      </div>
-      <div>
-        <ul class="clean">
-          <li data-en="Interdisciplinary and transdisciplinary research" data-es="Investigación interdisciplinaria y transdisciplinaria">Interdisciplinary and transdisciplinary research</li>
-          <li data-en="Exploratory modeling, geospatial analysis and multi-criteria evaluation" data-es="Modelación exploratoria, análisis geoespacial y evaluación multicriterio">Exploratory modeling, geospatial analysis and multi-criteria evaluation</li>
-          <li data-en="Participatory processes and knowledge co-production" data-es="Procesos participativos y coproducción de conocimiento">Participatory processes and knowledge co-production</li>
-          <li data-en="Adaptive learning, monitoring and evaluation" data-es="Aprendizaje adaptativo, monitoreo y evaluación">Adaptive learning, monitoring and evaluation</li>
-          <li data-en="Equity, inclusion and institutional change" data-es="Equidad, inclusión y cambio institucional">Equity, inclusion and institutional change</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section id="work">
-    <div class="wrap">
-      <h2 data-en="Selected work and collaborations" data-es="Proyectos y colaboraciones">Selected work and collaborations</h2>
-      <p class="intro" data-en="A selection of themes and initiatives. This section can be expanded with project descriptions, partners, outcomes and links." data-es="Una selección de temas e iniciativas. Esta sección puede ampliarse con descripciones, colaboradores, resultados y enlaces a proyectos.">A selection of themes and initiatives. This section can be expanded with project descriptions, partners, outcomes and links.</p>
-      <div class="grid">
-        <article class="item">
-          <h3 data-en="Climate adaptation and decision support" data-es="Adaptación climática y apoyo a decisiones">Climate adaptation and decision support</h3>
-          <p data-en="Decision-support approaches for climate adaptation planning, uncertainty analysis and robust strategies." data-es="Enfoques de apoyo a decisiones para la planeación de la adaptación climática, análisis de incertidumbre y estrategias robustas.">Decision-support approaches for climate adaptation planning, uncertainty analysis and robust strategies.</p>
-        </article>
-        <article class="item">
-          <h3 data-en="Living Labs and transdisciplinary sustainability" data-es="Living Labs y sostenibilidad transdisciplinaria">Living Labs and transdisciplinary sustainability</h3>
-          <p data-en="Collaborative spaces linking research, public institutions and societal actors to co-produce solutions." data-es="Espacios colaborativos que vinculan investigación, instituciones públicas y actores sociales para coproducir soluciones.">Collaborative spaces linking research, public institutions and societal actors to co-produce solutions.</p>
-        </article>
-        <article class="item">
-          <h3 data-en="Socio-ecological modeling and spatial analysis" data-es="Modelación socioecológica y análisis espacial">Socio-ecological modeling and spatial analysis</h3>
-          <p data-en="Models and geospatial tools to explore system dynamics, risks, thresholds and alternative futures." data-es="Modelos y herramientas geoespaciales para explorar dinámicas, riesgos, umbrales y futuros alternativos.">Models and geospatial tools to explore system dynamics, risks, thresholds and alternative futures.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="wrap two">
-      <div>
-        <h2 data-en="About" data-es="Perfil">About</h2>
-        <p data-en="I am a sustainability scientist whose work brings together socio-ecological systems research, decision support and collaborative approaches to complex environmental challenges." data-es="Soy especialista en ciencias de la sostenibilidad. Mi trabajo integra investigación sobre sistemas socioecológicos, apoyo a la toma de decisiones y enfoques colaborativos para abordar problemas ambientales complejos.">I am a sustainability scientist whose work brings together socio-ecological systems research, decision support and collaborative approaches to complex environmental challenges.</p>
-      </div>
-      <div>
-        <h3 data-en="Academic background" data-es="Formación académica">Academic background</h3>
-        <ul class="clean">
-          <li>PhD in Forest Sciences — Université Laval</li>
-          <li>MSc in Forestry — University of British Columbia</li>
-          <li>BSc in Biology — Universidad Nacional Autónoma de México</li>
-        </ul>
-        <p data-en="My institutional experience includes academic leadership and research coordination at the National Laboratory of Sustainability Sciences (LANCIS), Institute of Ecology, UNAM." data-es="Mi experiencia institucional incluye liderazgo académico y coordinación de investigación en el Laboratorio Nacional de Ciencias de la Sostenibilidad (LANCIS), Instituto de Ecología, UNAM.">My institutional experience includes academic leadership and research coordination at the National Laboratory of Sustainability Sciences (LANCIS), Institute of Ecology, UNAM.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="wrap contact">
-      <h2 data-en="Let's connect" data-es="Conversemos">Let's connect</h2>
-      <p data-en="For research collaborations, academic exchange, speaking engagements and advisory work, please get in touch." data-es="Para colaboraciones de investigación, intercambio académico, conferencias y asesoría especializada, puedes escribirme.">For research collaborations, academic exchange, speaking engagements and advisory work, please get in touch.</p>
-      <!-- Replace the placeholder email with the address you want to publish. -->
-      <a class="button primary" href="mailto:YOUR_EMAIL@example.com" data-en="Email me" data-es="Escríbeme">Email me</a>
-      <p style="margin-bottom:0;font-size:.9rem;color:#60717d" data-en="Add your ORCID, Google Scholar, LinkedIn and CV links here when ready." data-es="Aquí puedes agregar tus enlaces a ORCID, Google Scholar, LinkedIn y CV cuando estén listos.">Add your ORCID, Google Scholar, LinkedIn and CV links here when ready.</p>
-    </div>
-  </section>
+<div class="wrap hero">
+<div>
+<div class="kicker" data-en="Sustainability science · Systems thinking · Decision support" data-es="Ciencias de la sostenibilidad · Pensamiento sistémico · Apoyo a decisiones">Ciencias de la sostenibilidad · Pensamiento sistémico · Apoyo a decisiones</div>
+<h1>Yosune<br>Miquelajauregui</h1>
+<p class="lead" data-en="I connect socio-ecological systems research, collaborative governance and decision-making under deep uncertainty to help shape more sustainable futures." data-es="Conecto la investigación de sistemas socioecológicos, la gobernanza colaborativa y la toma de decisiones bajo incertidumbre profunda para contribuir a construir futuros más sostenibles.">Conecto la investigación de sistemas socioecológicos, la gobernanza colaborativa y la toma de decisiones bajo incertidumbre profunda para contribuir a construir futuros más sostenibles.</p>
+<div class="hero-note" data-en="Research · Institutional leadership · Strategic advisory" data-es="Investigación · Liderazgo institucional · Asesoría estratégica">Investigación · Liderazgo institucional · Asesoría estratégica</div>
+<div class="actions"><a class="btn primary" href="#expertise" data-en="Explore my work" data-es="Conoce mi trabajo">Conoce mi trabajo</a><a class="btn" href="#contact" data-en="Get in touch" data-es="Contacto">Contacto</a></div>
+</div>
+<div class="hero-photo"><img class="portrait" src="assets/yosune-profile.JPG" alt="Retrato profesional de Yosune Miquelajauregui" loading="eager"></div>
+</div>
+<div class="band"><div class="wrap band-inner"><span class="section-no">01 / Perspective</span><p data-en="Transforming systems. Inspiring futures." data-es="Transformar sistemas. Inspirar futuros.">Transformar sistemas. Inspirar futuros.</p></div></div>
+<section id="expertise"><div class="wrap">
+<div class="section-head"><div><span class="section-no">02 / Expertise</span><h2 data-en="Areas of work" data-es="Ámbitos de trabajo">Ámbitos de trabajo</h2></div><p class="intro" data-en="I combine analytical, spatial and participatory methods to understand complex challenges and support decisions in changing contexts." data-es="Combino métodos analíticos, espaciales y participativos para comprender desafíos complejos y apoyar decisiones en contextos cambiantes.">Combino métodos analíticos, espaciales y participativos para comprender desafíos complejos y apoyar decisiones en contextos cambiantes.</p></div>
+<div class="cards">
+<article class="card"><span class="num">01</span><h3 data-en="Decision-making under deep uncertainty" data-es="Decisiones bajo incertidumbre profunda">Decisiones bajo incertidumbre profunda</h3><p data-en="Exploratory modeling, scenario discovery, robustness analysis and spatial decision support." data-es="Modelación exploratoria, identificación de escenarios, análisis de robustez y apoyo espacial a decisiones.">Modelación exploratoria, identificación de escenarios, análisis de robustez y apoyo espacial a decisiones.</p></article>
+<article class="card"><span class="num">02</span><h3 data-en="Socio-ecological systems" data-es="Sistemas socioecológicos">Sistemas socioecológicos</h3><p data-en="System dynamics, thresholds, resilience, ecosystem services and sustainability transformations." data-es="Dinámica de sistemas, umbrales, resiliencia, servicios ecosistémicos y transformaciones hacia la sostenibilidad.">Dinámica de sistemas, umbrales, resiliencia, servicios ecosistémicos y transformaciones hacia la sostenibilidad.</p></article>
+<article class="card"><span class="num">03</span><h3 data-en="Governance and adaptive capacity" data-es="Gobernanza y capacidad adaptativa">Gobernanza y capacidad adaptativa</h3><p data-en="Collaborative governance, institutional capacity, indicators, monitoring, evaluation and learning." data-es="Gobernanza colaborativa, capacidades institucionales, indicadores, monitoreo, evaluación y aprendizaje.">Gobernanza colaborativa, capacidades institucionales, indicadores, monitoreo, evaluación y aprendizaje.</p></article>
+</div></div></section>
+<section id="approach"><div class="wrap approach">
+<div><span class="section-no">03 / Approach</span><h2 data-en="Connecting knowledge and action" data-es="Conectar conocimiento y acción">Conectar conocimiento y acción</h2><p class="intro" data-en="My work bridges science, institutions and society. I design processes that bring diverse perspectives together, make uncertainty explicit and turn evidence into collective learning." data-es="Mi trabajo tiende puentes entre ciencia, instituciones y sociedad. Diseño procesos que articulan perspectivas diversas, hacen explícita la incertidumbre y convierten la evidencia en aprendizaje colectivo.">Mi trabajo tiende puentes entre ciencia, instituciones y sociedad. Diseño procesos que articulan perspectivas diversas, hacen explícita la incertidumbre y convierten la evidencia en aprendizaje colectivo.</p></div>
+<ul class="approach-list"><li data-en="Interdisciplinary and transdisciplinary research" data-es="Investigación interdisciplinaria y transdisciplinaria">Investigación interdisciplinaria y transdisciplinaria</li><li data-en="Exploratory modeling and geospatial analysis" data-es="Modelación exploratoria y análisis geoespacial">Modelación exploratoria y análisis geoespacial</li><li data-en="Participatory processes and knowledge co-production" data-es="Procesos participativos y coproducción de conocimiento">Procesos participativos y coproducción de conocimiento</li><li data-en="Monitoring, evaluation and adaptive learning" data-es="Monitoreo, evaluación y aprendizaje adaptativo">Monitoreo, evaluación y aprendizaje adaptativo</li><li data-en="Equity, inclusion and institutional transformation" data-es="Equidad, inclusión y transformación institucional">Equidad, inclusión y transformación institucional</li></ul>
+</div></section>
+<section id="work"><div class="wrap">
+<div class="section-head"><div><span class="section-no">04 / Selected work</span><h2 data-en="Research and collaborations" data-es="Investigación y colaboraciones">Investigación y colaboraciones</h2></div><p class="intro" data-en="I work with academic, public and societal partners on sustainability challenges that require integrated perspectives and practical pathways for change." data-es="Colaboro con actores académicos, públicos y sociales en desafíos de sostenibilidad que requieren perspectivas integradas y rutas prácticas de transformación.">Colaboro con actores académicos, públicos y sociales en desafíos de sostenibilidad que requieren perspectivas integradas y rutas prácticas de transformación.</p></div>
+<div class="projects"><article class="project"><h3 data-en="Climate adaptation and decision support" data-es="Adaptación climática y apoyo a decisiones">Adaptación climática y apoyo a decisiones</h3><p class="body-copy" data-en="Robust strategies, uncertainty analysis and decision-support approaches for climate adaptation planning." data-es="Estrategias robustas, análisis de incertidumbre y enfoques de apoyo a decisiones para la planeación de la adaptación climática.">Estrategias robustas, análisis de incertidumbre y enfoques de apoyo a decisiones para la planeación de la adaptación climática.</p></article>
+<article class="project"><h3 data-en="Living Labs and transdisciplinary sustainability" data-es="Living Labs y sostenibilidad transdisciplinaria">Living Labs y sostenibilidad transdisciplinaria</h3><p class="body-copy" data-en="Collaborative spaces connecting research, institutions and societal actors to co-produce solutions." data-es="Espacios colaborativos que conectan investigación, instituciones y actores sociales para coproducir soluciones.">Espacios colaborativos que conectan investigación, instituciones y actores sociales para coproducir soluciones.</p></article>
+<article class="project"><h3 data-en="Socio-ecological modeling and spatial analysis" data-es="Modelación socioecológica y análisis espacial">Modelación socioecológica y análisis espacial</h3><p class="body-copy" data-en="Models and geospatial tools to explore system dynamics, risks, thresholds and alternative futures." data-es="Modelos y herramientas geoespaciales para explorar dinámicas, riesgos, umbrales y futuros alternativos.">Modelos y herramientas geoespaciales para explorar dinámicas, riesgos, umbrales y futuros alternativos.</p></article>
+<article class="project"><h3 data-en="Institutional capacity and collaborative governance" data-es="Capacidad institucional y gobernanza colaborativa">Capacidad institucional y gobernanza colaborativa</h3><p class="body-copy" data-en="Assessment frameworks, indicators and learning processes to strengthen adaptive and collective action." data-es="Marcos de evaluación, indicadores y procesos de aprendizaje para fortalecer la capacidad adaptativa y la acción colectiva.">Marcos de evaluación, indicadores y procesos de aprendizaje para fortalecer la capacidad adaptativa y la acción colectiva.</p></article></div>
+</div></section>
+<section id="about"><div class="wrap about-grid">
+<div><span class="section-no">05 / Profile</span><h2 data-en="Academic profile" data-es="Perfil académico">Perfil académico</h2><p class="body-copy" data-en="I am a sustainability scientist working at the intersection of socio-ecological systems, decision support and collaborative approaches to complex environmental challenges. My institutional experience includes academic leadership and research coordination at the National Laboratory of Sustainability Sciences (LANCIS), Institute of Ecology, UNAM." data-es="Soy especialista en ciencias de la sostenibilidad. Mi trabajo se sitúa en la intersección de los sistemas socioecológicos, el apoyo a la toma de decisiones y los enfoques colaborativos para abordar problemas ambientales complejos. Mi experiencia institucional incluye liderazgo académico y coordinación de investigación en el Laboratorio Nacional de Ciencias de la Sostenibilidad (LANCIS), Instituto de Ecología, UNAM.">Soy especialista en ciencias de la sostenibilidad. Mi trabajo se sitúa en la intersección de los sistemas socioecológicos, el apoyo a la toma de decisiones y los enfoques colaborativos para abordar problemas ambientales complejos. Mi experiencia institucional incluye liderazgo académico y coordinación de investigación en el Laboratorio Nacional de Ciencias de la Sostenibilidad (LANCIS), Instituto de Ecología, UNAM.</p></div>
+<div><h3 data-en="Education" data-es="Formación académica">Formación académica</h3><ul class="credentials"><li data-en="PhD in Forest Sciences — Université Laval" data-es="Doctorado en Ciencias Forestales — Université Laval">Doctorado en Ciencias Forestales — Université Laval</li><li data-en="MSc in Forestry — University of British Columbia" data-es="Maestría en Ciencias Forestales — University of British Columbia">Maestría en Ciencias Forestales — University of British Columbia</li><li data-en="BSc in Biology — Universidad Nacional Autónoma de México" data-es="Licenciatura en Biología — Universidad Nacional Autónoma de México">Licenciatura en Biología — Universidad Nacional Autónoma de México</li></ul></div>
+</div></section>
+<section id="contact"><div class="wrap contact-panel"><div><span class="section-no" style="color:#c6d6c7">06 / Contact</span><h2 data-en="Let's shape better futures" data-es="Construyamos mejores futuros">Construyamos mejores futuros</h2><p data-en="For research collaborations, academic exchange, speaking engagements and strategic advisory work, please get in touch." data-es="Para colaboraciones de investigación, intercambio académico, conferencias y asesoría estratégica, será un gusto conversar.">Para colaboraciones de investigación, intercambio académico, conferencias y asesoría estratégica, será un gusto conversar.</p></div><a class="btn" href="mailto:YOUR_EMAIL@example.com" data-en="Write to me" data-es="Escríbeme">Escríbeme</a></div></section>
 </main>
-
-<footer><div class="wrap">© <span id="year"></span> Yosune Miquelajauregui Graf · <span data-en="Personal academic website" data-es="Página académica personal">Personal academic website</span></div></footer>
+<footer><div class="wrap">© <span id="year"></span> Yosune Miquelajauregui · <span data-en="Personal academic and consulting profile" data-es="Perfil académico y de consultoría">Perfil académico y de consultoría</span></div></footer>
 <script>
-  const button = document.getElementById('lang');
-  let language = 'en';
-  button.addEventListener('click', () => {
-    language = language === 'en' ? 'es' : 'en';
-    document.documentElement.lang = language;
-    document.querySelectorAll('[data-en]').forEach(el => {
-      el.textContent = el.dataset[language];
-    });
-    button.textContent = language === 'en' ? 'ES' : 'EN';
-  });
-  document.getElementById('year').textContent = new Date().getFullYear();
+const button=document.getElementById('lang');let language='es';
+button.addEventListener('click',()=>{language=language==='es'?'en':'es';document.documentElement.lang=language;document.querySelectorAll('[data-en]').forEach(el=>{el.textContent=el.dataset[language]});button.textContent=language==='es'?'EN':'ES'});
+document.getElementById('year').textContent=new Date().getFullYear();
 </script>
-</body>
-</html>
+</body></html>
